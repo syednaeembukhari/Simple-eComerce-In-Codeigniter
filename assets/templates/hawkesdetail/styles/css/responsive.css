@@ -1,0 +1,312 @@
+/*
+* Stylesheet for enabling responsiveness of the theme
+*
+* @package Livemesh Framework
+*/
+
+img, object, embed { max-width: 100%;
+    /* fit within the available area instead of overflowing */
+    }
+audio { max-width: 100%; }
+video { width: 100% !important; height: auto !important; }
+
+/* -------------------------------- Default widths ------------------------------- */
+/* The sidebar fixed widths dictate how much space the #content gets */
+
+.layout-1c #content { width: 100%; }
+
+.inner, body.fluid-width-page #breadcrumbs, body.fluid-width-page .segment-content {
+    padding-left: 20px; padding-right: 20px; max-width: 1140px; margin: 0 auto; }
+
+body.fluid-width-page #main .inner, #custom-title-area .wide { max-width: none; padding: 0 !important; margin: 0; }
+body.fluid-width-page #content, body.fluid-width-page .entry-content { padding: 0; margin: 0; }
+body.fluid-width-page #breadcrumbs { display: none; }
+/* Disable the distracting breadcrumbs on full width pages */
+
+/* ================================================== Media Queries ================================================== */
+
+/* -------------------- START - Home and other content pages responsive behavior styling - changes with each theme ---------------------- */
+
+@media only screen and (max-width : 1024px) {
+    #our-clients .twocol { width: 25%; }
+    }
+@media only screen and (max-width: 767px) {
+    #our-clients .twocol { width: 33.3%; }
+    #purchase-action h2 { text-align: center; }
+
+    .client-info .twocol { width: 33.3%; }
+    #our-premium-clients .twocol { width: 30%; margin-right: 3.2%; }
+
+    .testimonials2-slider-container blockquote { padding: 80px 0 0; }
+    .testimonials2-slider-container blockquote > p { font-size: 16px !important; line-height: 28px !important; }
+    .testimonials2-slider-container  .footer, .testimonials3-slider-container  .footer {
+        font-size: 14px; line-height: 24px; }
+    .testimonials2-slider-container .flex-direction-nav { display: none; }
+
+    }
+@media only screen and (max-width: 479px) {
+
+    #our-clients .twocol { width: 50%; }
+
+    #blog-header h1 { font-size: 36px; line-height: 48px; }
+    #blog-header p { font-size: 14px; line-height: 24px; }
+
+    /* Hide the hands for smartphones */
+    .pointer-wrap:after, .pointer-wrap:before { display: none; }
+
+    .fancy-heading, .fancy-heading2 { padding: 8px 12px; background: #c0442f; }
+    .fancy-heading span, .fancy-heading2 span { padding: 0; background: none; }
+
+    }
+
+/* -------------------- END - Home and other content pages responsive behavior styling - changes with each theme ---------------------- */
+
+/* --------------------- Desktops and laptops -------------------------------- */
+@media screen and (min-width: 1400px) {
+    .boxed #container, .boxed #header.sticky { max-width: 1220px; }
+    }
+@media screen and (max-width: 1400px) {
+    #nivo-slider.loading { height: 350px; }
+    }
+@media screen and (max-width: 1280px) {
+
+    #content.default-list .hentry { margin-bottom: 60px; padding-top: 65px; }
+
+    .entry-header .published abbr span { margin-right: 4px; }
+    .entry-header { left: -16px; top: 16px; padding: 8px 15px 8px 15px; }
+    .entry-header:hover:before { border-top: 10px solid #0d5c89; }
+    .entry-header:before { border-top: 10px solid #9a3120; border-left: 16px solid transparent; top: 40px; }
+
+    #slider-area .flexslider .flex-next { right: 20px; }
+    #slider-area .flexslider .flex-prev { left: 20px; }
+    a.nivo-nextNav { right: 20px; }
+    a.nivo-prevNav { left: 20px; }
+
+    }
+
+@media only screen and (max-width: 1100px) {
+    /* Fix for iOS devices to disable parrallax scroll and fixed positioning */
+    .segment { background-attachment: scroll !important; background-position: center center !important; }
+
+    }
+
+/* -------------------------- Small screens -------------------------------------- */
+@media only screen and (max-width : 1024px) {
+    .box-frame, .box-frame2 { max-width: 280px; margin: 0 auto; }
+    .type-portfolio .image-info h3.post-title { font-size: 16px; line-height: 24px; }
+    .image-grid .sixcol, .image-grid .fourcol, .image-grid .threecol { margin-bottom: 18px; }
+    .pricing-table .threecol { width: 48%; margin-right: 2%; margin-bottom: 20px; }
+
+    #site-logo #header .social-container { top: 10px; }
+    #header > .inner > .warp { min-height: 80px; }
+    #primary-menu > ul.menu > li > a { font-size: 15px; }
+    #nivo-slider.loading { height: 310px; }
+
+    }
+
+/* -------------------------------------- Smaller than standard 960 (devices and browsers) -------------------------------------- */
+@media only screen and (max-width: 959px) {
+    #title-area p { width: 100%; }
+    /* --------------------- Disable non-responsive sliders for devices with smaller screens -------------------*/
+    }
+
+/* --------------------------------------Tablet Portrait size to standard 960 (devices and browsers)-------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .flex-caption, .nivo-caption { left: 70px; bottom: 20%; }
+    .flex-caption a, .nivo-caption a { font-size: 26px; line-height: 30px; }
+
+    }
+
+/* --------------------------------------All Mobile Sizes (devices and browser)-------------------------------------- */
+@media only screen and (max-width: 767px) {
+    body { -webkit-text-size-adjust: none;
+        /* do not adjust size of text on iPhone */
+        }
+    h1, h2, h3 { margin-bottom: 20px; }
+    h1, #title-area h1 { font-size: 28px; }
+    h2, #title-area h2 { font-size: 26px; }
+    h3, #title-area h3 { font-size: 22px; }
+
+    #title-area h1, #title-area h2 { font-size: 32px; line-height: 38px; }
+    .heading2 .title { font-size: 28px; line-height: 36px; }
+
+    .parallax-banner { padding: 80px 0; background-attachment: scroll !important; }
+    .parallax-banner blockquote { font-size: 24px !important; line-height: 36px !important; }
+    .parallax-banner blockquote .cite { font-size: 16px !important; line-height: 28px !important; }
+
+    .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol,
+    .sixcol.zero-margin, .fourcol.zero-margin, .threecol.zero-margin { margin: 0 0 25px 0; width: 100%; }
+    .threecol.equal-margin, .fourcol.equal-margin, .sixcol.equal-margin { padding: 30px 0; }
+    .threecol.dual-margin, .fourcol.dual-margin, .sixcol.dual-margin { padding-right: 0; padding-left: 0; margin: 0; border: none; }
+
+    #header.sticky { display: none !important; }
+    #header > .inner { text-align: center; }
+    #header > .inner > .wrap { min-height: 40px; }
+    .sticky-wrapper { height: auto !important; }
+    /*No need to worry about sticky menu in mobile */
+    #site-logo { position: relative; margin: 10px auto; top: 0; float: none;}
+    .social-container { position: relative; display: inline-block; text-align: center; top: 0 !important; }
+    #nivo-slider.loading { height: 230px; }
+
+    .sidebar-right-nav, .sidebar-left-nav { background: none; }
+    #content, .sidebar-left-nav, .sidebar-right-nav { float: none !important; }
+    .sidebar-left-nav, .sidebar-right-nav { padding: 20px 0 !important; }
+    #sidebar-after-singular .widget { float: none; margin: 0 0 25px 0; }
+
+    /* Do not disturb the post lists */
+    ul.post-list .image-area { float: left !important; }
+    #content .image-area img { width: 100% !important; }
+
+    #primary-menu { display: none !important; }
+    #mobile-menu { display: block; position: relative; margin: 0; background: #4E5052; }
+    #mobile-menu > ul { padding-top: 10px; padding-bottom: 10px; border-top: 1px solid #5E5F61; margin: 0 auto; max-width: 380px; }
+    #mobile-menu ul { display: none; list-style: none; text-transform: none; }
+    #mobile-menu ul li { border-top: 1px solid #5E5F61; border-bottom: 1px solid #3D3F41; margin: 0; }
+    #mobile-menu ul li:first-child { border-top: none; }
+    #mobile-menu ul li:last-child { border-bottom: none; }
+    #mobile-menu ul li a { color: #ccc; display: block; padding: 10px 5px; }
+    #mobile-menu ul li a:hover { color: #eee; }
+    #mobile-menu-toggle { display: block; position: absolute; top: 15px; right: 0; height: 22px; width: 24px; padding: 5px; border: 2px solid #bbb; }
+
+    .box-frame, .box-frame2 { margin-bottom: 15px; }
+    .heading1 { padding: 15px 25px; }
+    #portfolio-template .hfeed .clear, #portfolio-full-width .hfeed .clear { padding: 0; }
+    #portfolio-template .sixcol, #portfolio-full-width .sixcol, #portfolio-template .fourcol, #portfolio-full-width .fourcol,
+    #portfolio-template .threecol, #portfolio-full-width .threecol { padding: 0; }
+    .carousel-container .entry-summary { display: none; }
+    .carousel-container .flexslider .slides .image-area { padding: 2px; }
+    .quote-wrap.alignright, .quote-wrap.alignleft { width: 180px; }
+    .pullquote, blockquote { font-size: 24px !important; line-height: 36px !important; }
+    .pullquote cite, blockquote .cite { font-size: 16px !important; line-height: 28px !important; }
+    .quote-wrap.alignright, blockquote.alignright { margin-left: 15px; }
+    .quote-wrap.alignleft, blockquote.alignleft { margin-right: 15px; }
+    #nivo-slider-wrap { padding: 0; }
+    .nivo-controlNav { display: none; }
+    .nivo-caption { left: 50px; bottom: 20%; width: 50%; }
+    .nivo-caption a { font-size: 22px; }
+    .flex-caption .flex-summary, .nivo-caption .nivo-summary { padding: 5px 10px; font-size: 14px; line-height: 20px; }
+    .nivo-directionNav a { height: 30px; width: 30px; margin-top: -15px; }
+    .nivo-directionNav .nivo-prevNav span, .nivo-directionNav .nivo-nextNav span { width: 30px; height: 30px; background-size: 30px; }
+    .flex-caption { left: 0; bottom: 20px; max-width: 60%; padding: 0 10px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; width: 50%; }
+    .flex-caption a { font-size: 16px; }
+    #slider-area .flex-control-nav, #slider-area .flex-direction-nav { display: none; }
+    /* Use touch controls */
+    .layout-1c #commentform input[type="text"] { width: 40% }
+    .layout-1c #commentform textarea { width: 82%; }
+    #content ul.post-list.medium-size .image-area img { width: 124px !important; }
+    .heading2 .pitch { max-width: none; }
+
+    #styleswitcher { display: none; }
+    /* Do not display the styleswitcher in mobile devices */
+
+    .image-info .terms {
+        display: block;
+        }
+
+    .comment-wrap .comment-arrow { top: 80px; left: 30px;
+        border-bottom-color: #FFF; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); }
+
+    .comment-box-wrap, .comment-list .avatar-wrap { float: none; display: block; }
+    .comment-box-wrap { max-width: 100%; width: 100%; top: 20px; }
+    .comment ol.children { margin-left: 10px; }
+
+    }
+
+/* --------------------------------------Mobile Landscape Size to Tablet Portrait (devices and browsers)-------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol { width: 100%; }
+    .sixcol.zero-margin, .fourcol.zero-margin, .threecol.zero-margin { width: 50%; }
+    .image-grid .sixcol, .image-grid .fourcol, .image-grid .threecol { width: 48%; height: auto; margin-bottom: 12px; }
+    ul.image-grid.rounded li.fourcol.portfolio-item { width: 40%; margin-right: 0 !important; }
+    ul.image-grid.rounded li.fourcol.portfolio-item:nth-child(odd) { margin-right: 19% !important; }
+    /* Make the grid blog layout two column in smaller tablets but not phones */
+    .team-info .fourcol, .team-info .threecol, .team-info .fourcol.last, .team-info .threecol.last { width: 46%; margin-right: 4%; }
+    blockquote.alignleft, blockquote.alignright { width: 200px; padding: 5px 5px 5px 42px; }
+
+    }
+
+/* --------------------------------------Mobile Portrait Size to Mobile Landscape Size (devices and browsers) --------------------------------------*/
+@media only screen and (max-width: 479px) {
+
+    #content .image-area { float: none; }
+    #site-logo a, .social-container { display: inline-block; text-align: center; }
+    #mobile-menu-toggle { right: -10px; }
+    #nivo-slider.loading { height: 140px; }
+    .image-wrapper.alignleft, .image-wrapper.alignright { float: none; margin: 0; }
+    .image-grid .sixcol, .image-grid .fourcol, .image-grid .threecol { width: 100% !important; height: auto; margin: 0 0 20px 0 !important; }
+    .pricing-table .threecol { width: 100%; margin: 0 0 20px 0 !important; }
+    #content .contact-form fieldset p { display: block; width: 80%; }
+
+    .parallax-banner { padding: 60px 0; }
+    .parallax-banner blockquote { font-size: 16px !important; line-height: 26px !important; }
+    .parallax-banner blockquote .cite { font-size: 13px !important; line-height: 24px !important; }
+
+    #commentform p { margin-bottom: 10px; }
+    #commentform input[type="text"] { float: none; width: 90% !important; margin: 0; }
+    #commentform textarea { width: 90% !important; clear: both; }
+
+    .flex-caption a, .nivo-caption a { font-size: 18px; padding: 5px; }
+    .flex-caption .flex-summary, .nivo-caption .nivo-summary { display: none; }
+
+    #content.default-list .hentry { margin-bottom: 60px; padding-top: 55px; }
+    .image-info h3.post-title { font-size: 16px; line-height: 24px; }
+
+    #sitemap-template h2, #archives-template h2, .archive h2.entry-title { font-size: 20px; line-height: 26px; }
+
+    #content .hentry .entry-meta { padding-top: 0; margin-top: 10px; margin-bottom: 15px; }
+    .entry-meta span { font-size: 12px; line-height: 18px; }
+
+    #footer .contact-form .text-input, #footer .contact-form textarea {
+        width: 100% !important;
+        }
+    .carousel-container .type-portfolio .image-info .image-info-buttons { display: none; }
+    .carousel-container .type-portfolio .image-info h3.post-title { top: 25%; }
+
+    .entry-header {
+        left: -15px;
+        top: 12px;
+        padding: 5px 15px 5px 15px;
+        }
+
+    .entry-header:hover:before {
+        border-top: 10px solid #0d5c89;
+        }
+
+    .entry-header:before {
+        border-top: 10px solid #9a3120;
+        border-left: 15px solid transparent;
+        top: 34px;
+        }
+    }
+
+/* -------------------------------------- prettyPhoto styling for small screens --------------------------------------*/
+@media only screen and (max-width: 767px) {
+    .pp_pic_holder.pp_default { width: 100% !important; left: 0 !important; overflow: hidden; }
+    div.pp_default .pp_content_container .pp_left { padding-left: 0 !important; }
+    div.pp_default .pp_content_container .pp_right { padding-right: 0 !important; }
+    .pp_content { width: 100% !important; height: auto !important; }
+    .pp_fade { width: 100% !important; height: 100% !important; }
+    .pp_fade iframe { width: 100% !important; }
+    a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom { display: none !important; }
+    #pp_full_res img { width: 100% !important; height: auto !important; }
+    .pp_details { width: 94% !important; padding-left: 3%; padding-right: 4%; padding-top: 10px; padding-bottom: 20px; background-color: #fff; margin-top: -2px !important; }
+    a.pp_close { right: 10px !important; top: 10px !important; }
+    }
+
+/* -------------------------------------- Retina displays like iPhone 4+ and iPad 3+ --------------------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    #site-logo a img.retina-logo { display: block; }
+    #site-logo a img.standard-logo { display: none; }
+
+    .widget ul.social-list a { background-image: url('../images/social-icons/social-widget@2x.png'); background-size: 1148px 41px; }
+    .widget ul.social-list a:hover { background-image: url('../images/social-icons/social-widget-hover@2x.png'); background-size: 1148px 41px; }
+
+    /* ul.social-list a { background: url('../images/social-icons/social@2x.png') no-repeat 0 0; background-size: 376px 24px; }
+    ul.social-list a:hover { background-image: url('../images/social-icons/social-hover@2x.png'); background-size: 376px 24px; }*/
+
+    .search-form .submit { background-image: url(../images/icons/search-icon@2x.png); background-size: 16px 17px; }
+
+    ul.list1 li { background-image: url('../images/icons/bullet@2x.png'); background-size: 6px 8px; }
+
+    }

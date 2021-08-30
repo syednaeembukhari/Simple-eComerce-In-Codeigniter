@@ -1,0 +1,41 @@
+/* CSS Document */
+.mainheader{}
+.toprow{ padding-top:5px; padding-bottom:5px; border-bottom:#EFEFEF 1px solid; font-size:12px; line-height:18px}
+.toprow i{ font-size:18px}
+.topmenu .nav li  a{ padding:2px 8px;}
+
+.logocontainer{ padding-top:5px; padding-bottom:5px;   }
+.logocontainer .form-group { margin-top:10px;}
+.logocontainer .form-group .form-control{ height:28px} 
+.logocontainer .form-group .input-group-addon { font-size:14px; line-height:12px; cursor:pointer}
+
+.logocontainer .cartcontainer{ text-align:right;  padding-top:10px;}
+
+
+.navbar { min-height:30px; margin-bottom:0px; border-radius:0px; border-left:none; border-right:none}
+.mainnav .nav li a { border-top: 1px solid #FFF;}
+.mainnav .nav li a:hover{ background:none;  border-top:1px solid #666; border-radius:0px}
+.mainnav .nav  > li.active > a, .mainnav .nav > li.active > a:hover, .mainnav .nav > li.active > a:focus{background:none;  border-top:1px solid #666; border-radius:0px; color:#337ab7}
+.mainnav .in  .nav li{ display:block; float:none}
+
+
+.mainnbanner{ background:#999; padding:0px; position:relative}
+
+.mainnbanner .page-main-heading { position:absolute; z-index:999; top:30%; right:12%; font-size:36px}
+
+.product-price{ color:#333333; font-weight:bold;}
+.product-price span{ color:#999; font-weight:bold; text-decoration:line-through}
+.products .product{ width:90%; margin:0px auto; text-align:center; padding:5px; border:1px solid #CCC}
+.products .product div{ /*background:#CCC*/}
+.products .product .product-title { margin-top:5px}
+.products .product .product-title a{ font-size:14px; color:#333; }
+.products .product .product-rating { color:#FFCC33}
+
+
+.footercontainer{ font-size:12px; border-top:1px solid #EFEFEF ; margin-top:10px ; padding-top:6px; padding-bottom:0px}
+/*--------*/
+.marginl10{ margin-left:10px;}
+.marginl20{ margin-left:20px;}
+.marginl30{ margin-left:30px;}
+.marginl40{ margin-left:40px;}
+.message{ color:#EE0000; margin:10px auto}

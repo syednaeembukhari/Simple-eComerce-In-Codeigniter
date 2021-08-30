@@ -1,0 +1,116 @@
+/* CSS Document */
+
+.maincontainer{}
+.main-banner{
+ margin-bottom:20px; margin-top:20px	
+	}
+.admin-topmenu-bg{
+		background-image:url(images/buttons/header-bg.png); /* Old browsers */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e5ba4', endColorstr='#0b2871',GradientType=0 ); /* IE6-9 */
+	
+	
+	}
+.admin-topmenu{ margin-bottom:5px; padding:22px 0;}
+.admin-topmenu .btn{ font-size:36px; line-height:38px; text-align:center}
+.admin-topmenu .btn small{ font-size:12px; line-height:12px}
+.admin-topmenu .btn .fa { display:block}
+
+
+
+
+.header-container{ margin-bottom:20px}
+.admin-submenu{ margin-top:5px;margin-bottom:5px;  /*border-bottom:1px solid #EFEFEF;*/}
+
+.dataTables_filter, .dataTables_paginate {text-align: right}
+.dataTables_paginate .pagination{ margin:0px; text-align: right}
+	 
+	
+.message{ color:#EE0000; margin:10px auto}
+.dashboard-item{ text-align:center}
+.dashboard-item a i{  font-size:120px; margin-top:40px }
+.admin_title { margin:3px;}
+
+.form-control-feedback { line-height:31px !important; }
+.form-control-feedback  .btn{ border-top-left-radius:0px ; border-bottom-left-radius:0px }
+
+.product_images .img-responsive{ background:#CCCCCC; margin-bottom:20px}
+
+.admin-top-menu{  list-style:none; margin:0px auto; display:block;}
+.admin-top-menu li{ display:inline-block; padding:0px 2px; border-right:1px solid #ffffff; }
+.admin-top-menu li:last-child{border-right:none; }
+.admin-top-menu li a img { margin-top:5px; width:80px}
+.admin-top-menu li .btn { font-size:36px; color:#FFFFFF}
+.admin-top-menu{ padding:0px}
+
+.pro-img{ position:relative}
+.img-upload-btn{ position:absolute; z-index:999;}
+.img-upload-btn img{ position:absolute; top:5px; left:5px;}
+
+
+.product-dashboard{ width:100%; text-align:center; margin-bottom:20px}
+.product-dashboard .title{ width:100%; font-weight:bold; margin-top:20px;}
+.product-dashboard .name{ width:100%;}
+.product-dashboard .price{ width:100%; font-weight:bold; color:#333}
+.product-dashboard .price .old-price{ text-decoration:line-through; color:#999999 }
+#autoloaderinner  .productitem{ min-height: 420px; border-bottom: 1px solid #D3C1C1; margin-top: 20px}
+#cat-error{ font-size:12px; color:#FF0000}
+.feedback-left .form-control-feedback{  right:auto;  }
+.feedback-left   .form-control-feedback a{border-top-left-radius:5px; border-bottom-left-radius:5px; border-top-right-radius:0px; border-bottom-right-radius:0px;}
+.feedback-left .form-control {
+    padding-left: 50.5px;
+}
+.product_price .old-price .pr{text-decoration:line-through} 
+.old-price,.new-price { display: inline-block}
+.product-price{ color:#333333; font-weight:bold;}
+.product-price .pr{ display: inline-block}
+.product-price .old-price .pr{ color:#999; font-weight:bold; text-decoration:line-through}
+/*  FORM CONTROLL */
+.normal{ font-weight:normal !important}
+/*Start Header Icons Style*/
+.admin-top-menu li 
+{
+	 text-align:center
+}
+.admin-top-menu li a { 
+	text-transform:uppercase;
+	font-size:10px;
+	color:#ffffff;
+	display:block;
+	text-decoration:none
+}
+.admin-top-menu li a span {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+	text-align: center !important;
+}
+span .fa-plus{
+	margin-left:7px;
+}
+
+.mega-octicon {
+    font-size: 36px;
+}
+.octicon, .mega-octicon {
+    margin-left: -10px;
+}
+.admin-top-menu  li a .fa {
+	font-size:40px;
+}
+.admin-top-menu  li a:hover {
+	color:#000000;
+}
+.btn { text-transform:uppercase}
+/*End Header Icons Style*/
+
+/*  END FORM CONTROLL */
+
+.setting-item{ margin-bottom:10px}
+
+
+.footer-container{ border-top:1px solid #EEE; margin-top:5px; padding-bottom:10px}
+
+
+
+
+

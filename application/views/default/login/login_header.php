@@ -1,0 +1,1 @@
+<?php $this->load->view(active_theme().'/common/header');?>  

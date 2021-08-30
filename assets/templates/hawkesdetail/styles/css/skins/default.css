@@ -1,0 +1,51 @@
+a, a:active, a:visited { color: #c0442f; }
+a:hover { color: #888; }
+ul.post-list .byline a, ul.post-list .byline a:active, ul.post-list .byline a:visited { color: #c0442f !important; }
+ul.post-list .byline a:hover { color: #888 !important; }
+.post-snippets .hentry .entry-title a:hover, ul.post-list .entry-title a:hover { color: #c0442f !important; }
+th { background: #c0442f; }
+#primary-menu .hover-bg, #primary-menu > ul.menu > li:hover > ul.sub-menu { border-color: #c1432f; }
+#content .hentry h2.entry-title a:hover { color: #c0442f; }
+.byline span i { color: #c0442f; }
+.entry-meta span i { color: #c0442f; }
+.entry-meta span:hover a { color: #c0442f; }
+.loop-nav a:hover { color: #c0442f; }
+.page-links a, .pagination a, .page-links a:visited, .pagination a:visited { background: #c0442f; }
+.sidebar li:hover > a { color: #c0442f !important; }
+#title-area { }
+#title-area a, #title-area a:active, #title-area a:visited { color: #c0442f; }
+#portfolio-filter a:hover { color: #c0442f; }
+.header-fancy span { background-color: #c0442f; }
+h3.fancy-header { background-color: #c0442f; }
+.top-of-page a:hover { color: #c0442f; }
+.tabs .current, .tabs .current:hover, .tabs li.current a { border-top: 2px solid #c0442f; }
+.read-more a { color: #c0442f; }
+ul#recentcomments li.recentcomments a { color: #c0442f; }
+.tagcloud a:hover, #footer .tagcloud a:hover { background-color: #c0442f; color: #fff;}
+div.service-box2:hover h2 a { color: #c0442f; }
+div.service-box1:hover { background-color: #c0442f; }
+.service-box3:hover { border-color: #c0442f; }
+#services-rounded .service-box4:hover h2 { color: #c0442f; }
+.heading1 h2, .user-invitation h2 { color: #c0442f; }
+#column-shortcode-section p { background: #c0442f; }
+.team-member:hover h3 a { color: #c0442f; }
+.pricing-table .pricing-plan h4 { color: #c0442f; }
+.pricing-table .plan-details li.free-plan-desc span { color: #c0442f; }
+#home2-heading .heading2 h2 { background: #c0442f; background: rgba(220, 70, 55, 0.7); }
+.image-info, .team-member .team-member-hover { background: #c0442f; background: rgba(192, 68, 47, 0.8); }
+span.action-link a:hover { color: #c0442f; }
+a.more-link:hover { color: #c0442f; }
+.service-box4 [class^="icon-"] { color: #c0442f; }
+
+#footer a:hover, #footer-bottom a:hover { color: #c0442f; }
+.about-us-text a, #footer .contact-info a, #footer a.rsswidget { color: #c0442f !important; }
+.sidebar a.rsswidget { color: #c0442f !important; }
+
+#flickr-widget .flickr_badge_image img:hover { border-color: #c0442f; }
+#footer .widget_text a.small, #footer .widget_text a.small:visited { color: #c0442f; }
+a.comment-reply-link, a.comment-reply-link:visited, a.comment-edit-link, a.comment-edit-link:visited {
+    background-color: #c1442f;
+ }
+.tp_recent_tweets li a { color: #c0442f !important; }
+#footer .tp_recent_tweets li a { color: #c0442f !important; }
+#footer .button.trans:hover { border-color: #c1432f !important; }

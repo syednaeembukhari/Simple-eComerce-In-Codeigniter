@@ -1,0 +1,90 @@
+/* CSS Document */
+
+body .container-fluid{ /*background:#edfbab;*/}
+.productcontainer{ margin-top:20px}
+.mainheader{}
+.toprow{ padding-top:5px; padding-bottom:5px; border-bottom:#EFEFEF 1px solid; font-size:12px; line-height:18px}
+.toprow i{ font-size:18px}
+.topmenu .nav li  a{ padding:2px 8px;}
+
+.logocontainer{ padding-top:5px; padding-bottom:5px;  background:#edfbab; }
+.logocontainer .form-group { margin-top:10px;}
+.logocontainer .form-group .form-control{ height:28px} 
+.logocontainer .form-group .input-group-addon { font-size:14px; line-height:12px; cursor:pointer}
+
+.logocontainer .cartcontainer{ text-align:right;  padding-top:10px;}
+
+
+.navbar { min-height:30px; margin-bottom:0px; border-radius:0px; border-left:none; border-right:none}
+.mainnav .nav li a { border-top: 1px solid #FFF;}
+.mainnav .nav li a:hover{ background:none;  border-top:1px solid #666; border-radius:0px}
+.mainnav .nav  > li.active > a, .mainnav .nav > li.active > a:hover, .mainnav .nav > li.active > a:focus{background:none;  border-top:1px solid #666; border-radius:0px; color:#337ab7}
+.mainnav .in  .nav li{ display:block; float:none}
+
+
+.mainnbanner{ background:#999; padding:0px; position:relative}
+
+.mainnbanner .page-main-heading { position:absolute; z-index:999; top:30%; right:12%; font-size:36px}
+.product_price .old-price .pr{text-decoration:line-through} 
+.old-price,.new-price { display: inline-block}
+.product-price{ color:#333333; font-weight:bold;}
+.product-price .pr{ display: inline-block}
+.product-price .old-price .pr{ color:#999; font-weight:bold; text-decoration:line-through}
+.products .product{ width:90%; margin:0px auto; text-align:center; padding:5px; border:1px solid #CCC; background:#FFFFFF}
+.products .product div{ /*background:#CCC*/}
+.products .product .product-title { margin-top:5px}
+.products .product .product-title a{ font-size:14px; color:#333; }
+.products .product .product-rating { color:#FFCC33}
+.productcontainer{ background:#FFFFFF !important; padding-bottom:30px}
+
+.productcontainer .row .products{ background-color:#FFFFFF }
+.pro-img{ margin-top:20px; margin-bottom:20px; cursor:pointer}
+
+.new-price {color:#CC0000; font-size: 30px}
+
+h2.product_title{ font-size:24px; margin:0px}
+.product_sku{ font-size:18px; line-height:24px; margin-top:10px; margin-bottom:10px}
+.product_description{ margin-bottom:10px;}
+.product_description p{ margin-bottom:5px}
+.product_description  img{max-width:100% !important;}
+.price_container{ margin:10px 0px;}
+.product_price{ font-size:18px; font-weight:bold}
+.product_price .old-price{ font-size:18px;  color:#999; font-weight:bold; text-decoration:line-through}
+.instock_container{ margin:10px 0px}
+.instock{ font-size:14px; margin-bottom:10px}
+.outstock{ font-size:14px; margin-bottom:10px}
+
+.footercontainer{ font-size:12px; border-top:1px solid #EFEFEF ;  padding-top:6px; padding-bottom:0px;margin-top:20px}
+/*--------*/
+.marginl10{ margin-left:10px;}
+.marginl20{ margin-left:20px;}
+.marginl30{ margin-left:30px;}
+.marginl40{ margin-left:40px;}
+.message{ color:#EE0000; margin:10px auto}
+
+.page_title_container{ background:#FFF !important; padding-bottom:10px ; padding-top:10px}
+.page-heading{ font-size:28px; line-height:30px; }
+
+.cart-item{ border-top:1px solid #AAA;  padding-top:5px; margin-bottom:5px}
+
+.cart-item .total-price{ font-weight:bold}
+.cart-item .total-shiping{ font-weight:bold}
+.cart-item .total-order{ font-weight:bold; font-size:15px}
+#msgcontainer p{margin-bottom:1px; margin-top:4px; color:#FF0000}
+.thankyou-order p{  margin:0px; font-size:13px;}
+
+ifram{width:100%}
+.red{color: #CC0000}
+.freeshiping-header{ color:#fc080a}
+.freeshiping-header-phone{ color:#0bb0d1}
+
+
+.error{ color: #DD0000}
+
+.footercontainer{ background:#edfbab; }
+
+
+
+
+
+

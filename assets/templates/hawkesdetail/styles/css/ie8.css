@@ -1,0 +1,81 @@
+/* 
+    Document   : ie8
+    Created on : Mar 22, 2012, 6:34:20 PM
+    Author     : Livemesh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* Do not allow IE to respond to browser resizes */
+#container { min-width: 1220px; }
+
+#content .contact-form LABEL {
+    display: block !important;
+    }
+#commentform LABEL { 
+    display: block !important; 
+    }
+
+/* Fix for IE 8 bug which makes images disappear when max-width is set on an image
+contained within a floated container and when image has width specified in html */
+
+img {
+    max-width: 100%; /* Fix needed to avoid image getting shrunk to zero width */
+    }
+
+ul.post-list .thumbnail {
+    max-width: none;
+    }
+
+.entry-content .image-area img {
+    max-width: none;
+    }
+
+.client-info .image-area img {
+    max-width: 100%;
+    }
+
+.divider-fancy {
+    float: left; /* Fix for IE8 margin-top bug with floated divs */
+    }
+
+.info, .note, .tip, .errors, .warning, .attention, .success {
+    position: relative;
+    }
+
+#primary-menu li a {
+    min-width: 1px;
+    }
+
+.nivo-caption {
+    filter: alpha(opacity=6);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)" !important;
+    }
+
+#retina-text {
+    background: #fff200;
+    /* background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2FFF200,endColorstr=#B2FFF200)";*/ /* IE8 */
+    }
+.threecol.dual-margin, .fourcol.dual-margin, .sixcol.dual-margin {
+    padding-right: 1.4% !important;
+    padding-left: 1.4% !important;
+    margin: 0;
+    }
+
+.image-info {
+    background: #dc4637;
+    }
+
+.image-info a.lightbox-link {
+    background-color: #666;
+    }
+
+.entry-header .published {
+         padding: 12px;
+         }
